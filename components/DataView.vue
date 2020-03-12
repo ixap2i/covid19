@@ -6,7 +6,7 @@
           class="DataView-TitleContainer"
           :class="!!$slots.infoPanel ? 'with-infoPanel' : ''"
         >
-          <h3 :id="titleId" class="DataView-Title">
+          <h3 class="DataView-Title">
             {{ title }}
           </h3>
           <div>
